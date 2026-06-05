@@ -29,9 +29,9 @@ consulta1 = ConsultaMedica(
 
 consulta2 = ConsultaMedica(
     2,
-    "Consulta Pediátrica",
+    "Consulta Ginecológica",
     30,
-    "Pediatría"
+    "Ginecología"
 )
 
 # Exámenes
