@@ -1,7 +1,8 @@
 # Integrantes:
-# - Tatiana Villón Montenegro
-# - Irina Alexandra Rivera Rivas
-# - Karen Dayana Tomala Lino
+# -Villón Montenegro Tatiana Jazmin
+# -Rivera Rivas  Irina Alexandra 
+# -Tomala Lino Karen Dayana 
+
 #  main.py  Punto de entrada del programa ----
 
 
