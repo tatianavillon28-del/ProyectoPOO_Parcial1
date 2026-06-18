@@ -1,4 +1,7 @@
-
+# Integrantes:
+# - Tatiana Villón Montenegro
+# - Irina Alexandra Rivera Rivas
+# - Karen Dayana Tomala Lino
 
 #####  Crear la superclase #------
 
