@@ -1,54 +1,71 @@
 # Proyecto Primer Parcial POO
+Proyecto Primer Parcial - Sistema de Gestión de Servicios de Clínica
+Integrantes
+Villón Montenegro Tatiana Jazmin
+Rivera Rivas Irina Alexandra
+Tomala Lino Karen Dayana
 
-## Sistema de Gestión de Servicios de Hospital / Clínica
-
-### Descripción
+### Descripción  
 
 Este proyecto fue desarrollado utilizando Programación Orientada a Objetos (POO) en Python.
 
 El sistema permite gestionar servicios médicos de una clínica, incluyendo consultas médicas y exámenes de laboratorio.
 
-### Clases Implementadas
+## Clases del proyecto
 
-#### Superclase
+### Servicio
 
-* Servicio
+Clase base que contiene los atributos y métodos comunes para todos los servicios.
 
-#### Clases Hijas
+### ConsultaMedica
 
-* ConsultaMedica
-* ExamenLaboratorio
+Hereda de Servicio y representa una consulta médica con especialidad.
 
-#### Clases Adicionales
+### ExamenLaboratorio
 
-* Paciente
-* Factura
-* GestorServicios
+Hereda de Servicio y representa un examen de laboratorio.
 
-### Conceptos Aplicados
+### Paciente
 
-* Encapsulamiento mediante atributos privados.
-* Uso de @property y @setter.
-* Herencia entre clases.
-* Polimorfismo utilizando listas de objetos.
-* Método especial **str**().
+Almacena la información del paciente.
 
-### Archivos del Proyecto
+### Factura
 
-* servicio.py
-* consulta_medica.py
-* examen_laboratorio.py
-* paciente.py
-* factura.py
-* gestor_servicios.py
-* main.py
+Genera la información de facturación del paciente.
 
-### Ejecución
+### GestorServicios
 
-Abrir una terminal dentro de la carpeta del proyecto y ejecutar:
+Permite generar reportes y calcular totales de los servicios.
 
-python main.py
+## Conceptos POO aplicados
 
-### Evidencias
+### Encapsulamiento
 
-Agregar capturas de pantalla de la ejecución y enlace al video explicativo.
+Se utilizaron atributos privados mediante `__atributo` y acceso controlado con `@property` y `@setter`.
+
+### Herencia
+
+Las clases `ConsultaMedica` y `ExamenLaboratorio` heredan de la clase `Servicio`.
+
+### Polimorfismo
+
+Se implementó mediante los métodos:
+
+* generar_reporte()
+* calcular_totales()
+
+Los cuales trabajan con listas de objetos de diferentes tipos de servicios.
+
+## Instrucciones de ejecución
+
+1. Abrir el proyecto en Visual Studio Code.
+2. Ejecutar el archivo `main.py`.
+3. Visualizar los resultados en consola.
+
+## Evidencia de ejecución
+
+![alt text](image.png)
+
+## Video
+
+Agregar aquí el enlace al video explicativo.
